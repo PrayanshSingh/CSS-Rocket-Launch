@@ -1,0 +1,32 @@
+body{
+    background: url(Images/night-9nngmbvce2sn0x9h.jpg);
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 1800px;
+    height: 900px;
+}
+
+
+@keyframes launch{
+    0%{
+        bottom: 0px;
+    }
+    
+    75%{
+        bottom: 600px;
+    }
+
+   100%{
+        bottom: 900px;
+    }
+}
+
+#rocket{
+    width: 300px;
+    animation: launch 5s infinite;
+    position: relative;
+}
