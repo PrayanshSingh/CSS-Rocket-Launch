@@ -1,1 +1,1 @@
-# CSS-Rocket-Launch
+# A Rocket Launch using CSS animations
